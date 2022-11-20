@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Prayer Times</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_for">Time for %s prayer</string>
+    <string name="time_in">In %s at %s</string>
+    <string name="time_up">It is %s time since </string>
+    <string name="time_to_next">Next prayer in </string>
+    <string name="time_interval">%2d h, %2d m and %2d s</string>
+    <string name="time_interval_rounded">%2d h and %2d m</string>
+    <string name="time_interval_0h">%2d m and %2d s</string>
+    <string name="time_interval_0h_rounded">%2d m</string>
+    <string name="stop_athan">Stop Athan</string>
+    <string name="close_notification">Close</string>
+    <string name="set_location">Tap here to set location</string>
+    <string name="zero_hour">00:00</string>
+    <string name="square">\u25A0</string>
+
+    <string name="fajr">Fajr</string>
+    <string name="shuruk">Sunset</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="jumu3a">Jumuaa</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="nextfajr">Next fajr</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_language">Language</string>
+    <string-array name="pref_language_list_titles">
+        <item>Follow device settings</item>
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>--</item>
+        <item>ar</item>
+        <item>en</item>
+    </string-array>
+    <string name="pref_language_default_value">--</string>
+
+    <string name="pref_title_numerals">Numerals</string>
+    <string-array name="pref_numerals_list_titles">
+        <item>Follow location</item>
+        <item>Arabic</item>
+        <item>Arabic Eastern</item>
+    </string-array>
+    <string-array name="pref_numerals_list_values">
+        <item>CC</item>
+        <item>DZ</item>
+        <item>EG</item>
+    </string-array>
+    <string name="pref_numerals_default_value">CC</string>
+
+    <string name="pref_title_about">About</string>
+    <string name="pref_txt_about">
+Athan Bilal is a free software released under the GNU General Public License version 3.0.
+It uses prayer time calculation code from the Islamic Tools Library released by the Arab Eyes project.
+Its source is available at github.com/cdjalel/Bilal.\n
+\n
+Athan Bilal contains the coordinates of 23784 cities around the world, extracted from the geoname.org
+site under the Creative Commons Attribution 4.0 License.\n
+\n
+The background image was designed by Freepick and licensed via www.freepick.com.\n
+\n
+There might be a slight difference between prayer times displayed here
+and the real times adopted by the mosques in your city. In such case, please try:\n
+- first to configure the right calculation method in the location settings.\n
+- Next, if your town/commune is very close to a big city, try to use its name instead in location settings.\n
+- Otherwise, send the name of your city (both in english and your local language), its exact
+coordinates (latitude, longitude and altitude) and its prayer time calculation method to our address:
+athan.bilal1@gmail.com, so we can fix it.
+    </string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <!--<string name="pref_header_data_sync">Data &amp; sync</string>-->
+
+    <!--<string name="pref_title_sync_frequency">Sync frequency</string>-->
+    <!--<string-array name="pref_sync_frequency_titles">-->
+    <!--<item>15 minutes</item>-->
+    <!--<item>30 minutes</item>-->
+    <!--<item>1 hour</item>-->
+    <!--<item>3 hours</item>-->
+    <!--<item>6 hours</item>-->
+    <!--<item>Never</item>-->
+    <!--</string-array>-->
+    <!--<string-array name="pref_sync_frequency_values">-->
+    <!--<item>15</item>-->
+    <!--<item>30</item>-->
+    <!--<item>60</item>-->
+    <!--<item>180</item>-->
+    <!--<item>360</item>-->
+    <!--<item>-1</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="list_preference_entries">-->
+    <!--<item>Entry 1</item>-->
+    <!--<item>Entry 2</item>-->
+    <!--<item>Entry 3</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="list_preference_entry_values">-->
+    <!--<item>1</item>-->
+    <!--<item>2</item>-->
+    <!--<item>3</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="multi_select_list_preference_default_value" />-->
+
+    <!--<string name="pref_title_system_sync_settings">System sync settings</string>-->
+
+    <!-- Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_prayer_time">Prayer time</string>
+
+    <string name="pref_title_athan">Athan</string>
+
+    <string name="pref_title_muezzin">Muezzin</string>
+    <string-array name="pref_muezzin_list_titles">
+        <item>Abdulbaset Abdesamad (Egypt)</item>
+        <item>Ali Mullah (Mecca)</item>
+        <item>Naser Alqatami (Al-Riyadh)</item>
+        <item>Abdulmajeed Aserehy (Al-Madinah)</item>
+        <item>İsmail Coşar (Turkey)</item>
+        <item>Kefah Issa (Palestine)</item>
+        <item>Riad Aït-Hamou (Algeria)</item>
+    </string-array>
+    <string-array name="pref_muezzin_list_values">
+        <item>ABDELBASET</item>
+        <item>ALIMULLA</item>
+        <item>ALQATAMI</item>
+        <item>ASEREHY</item>
+        <item>JOSHAR</item>
+        <item>KEFAH</item>
+        <item>RIAD</item>
+    </string-array>
+    <string name="select_muezzin">Select muezzin %1$s?</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!--Location settings-->
+    <!--<string name="btn_search_city">Search</string>-->
+    <string name="search_city">Search city</string>
+
+    <string name="pref_header_locations">Location</string>
+    <string name="pref_title_search_city">City</string>
+    <string name="pref_undefined_city">Undefined</string>
+
+    <string name="pref_title_method">Calculation method</string>
+    <string-array name="pref_method_list_titles">
+        <item>Muslim World League</item>
+        <item>Egyptian Survey Authority</item>
+        <item>Umm Al-Qurra University</item>
+        <item>Karachi Univ. of Islamic Sciences</item>
+        <item>Islamic Society of North America</item>
+        <item>Union of Islamic Org. in France</item>
+        <item>Kuwait Ministry of Awqaf</item>
+    </string-array>
+    <string-array name="pref_method_list_values">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string name="pref_title_mathhab_hanafi">Mathhab Hanafi</string>
+    <string name="pref_description_mathhab_hanafi">Follow Mathhab Hanafi for Asr time</string>
+
+    <string name="pref_title_round">Rounding seconds</string>
+
+    <!-- TODO: add other config. from Method.java -->
+
+</resources>
